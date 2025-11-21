@@ -12,5 +12,7 @@
 - **Tools:FortiGate, Wireshak, Linux, Git, Windows**
 
 ## 📊 GitHub Stats
+- GitHub Streak https://streak-stats.demolab.com/?user=NeeloByron&theme=radical/https://git.io/streak-stats
 
-Build a basic VPC with public and private subnets
+## 🔗 Connect with Me
+- in: https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/
