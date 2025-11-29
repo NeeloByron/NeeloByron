@@ -1,18 +1,16 @@
-## Hi there, I'm NeeloByron 👋
+## Hi there, I'm Neelo Byron Nkhuna 👋
 
 ## 🚀 About Me
-- 🔭 I'm currently working on Basic Deploy a FortiGate VM in my own AWS account using the AWS Marketplace
-- 🌱 I'm currently learning Fortinet NSE 3
-- 📫 How to reach me via email: byronnkhuna@gmail.com / 📞 WhatsApp @079 298 5272
-- ⚡ I'm basically double-majoring in two of the most in-demand skills in tech: Cloud Computing with AWS and Cybersecurity with Fortinet.
+**🌟 Self-Taught Full-Stack Developer | ☁️ AWS Clould + AI Practitioner**
 
-## 🛠️ Technologies & Tools
-- **Language: Python (Learning for Automation), Bash**
-- **Framework: AWS, Fortinet Security Fabric**
-- **Tools:FortiGate, Wireshak, Linux, Git, Windows**
+💡Passionate about building intelligent applications using AWS Cloud services and AI fundamentals. Currently focused on hands-on projects that combine cloud infrastracture with machine learning capabilities.
 
-## 📊 GitHub Stats
-- GitHub Streak https://streak-stats.demolab.com/?user=NeeloByron&theme=radical/https://git.io/streak-stats
+## 🔧 Tech Stack
+- **Cloud:** AWS (EC2, S3, lambda, SageMaker, Bedrock)
+- **AI/ML:** Python, TemsorFlow, scikit-learn, Jupyter
+- **Tools:** Git, Docker, VS Code, Postman
 
 ## 🔗 Connect with Me
-- in: https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/
+- **📫 Reach me via email:** byronnkhuna@gmail.com
+- **in:** https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/
+
