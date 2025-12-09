@@ -1,14 +1,21 @@
 ## Hi there, I'm Neelo Byron Nkhuna 👋
 
 ## 🚀 About Me
-**🌟 Self-Taught Full-Stack Developer | ☁️ AWS Clould + AI Practitioner**
+**☁️ Clould Administrator | Azure Certified Professional**
 
-💡Passionate about building intelligent applications using AWS Cloud services and AI fundamentals. Currently focused on hands-on projects that combine cloud infrastracture with machine learning capabilities.
+💡I'm driven by  the powerful synergy between Microsoft Azure's intelligent cloud platform and cutting-edge AI capabilities. My passion lies in architecting solutions where cloud infrastructure doesn't just host applications it enhances them with intelligience, scalability and transformative potential.
 
-## 🔧 Tech Stack
-- **Cloud:** AWS (EC2, S3, lambda, SageMaker, Bedrock)
-- **AI/ML:** Python, TemsorFlow, scikit-learn, Jupyter
-- **Tools:** Git, Docker, VS Code, Postman
+## 🎓 Certifications
+-Microsoft Certified: Azure Fundamentals (AZ-900)
+-Microsoft Certified: Azure Administrator Associate (AZ-104)
+
+## 🔧 Technical Skill
+- **Cloud:** Microsoft Azure, IaaS/PaaS/SaaS
+- **Infrastructure:** Virtual Networks, Storage, Compute, Security
+- **Tools:** Azure CLI, PowerShell, ARM Templates, Azure Monitor
+
+## 📁 Featured Projects
+### [Azure Certifications Portfolio] (link)
 
 ## 🔗 Connect with Me
 - **📫 Reach me via email:** byronnkhuna@gmail.com
