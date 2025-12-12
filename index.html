@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume | Neelo Byron Nkhuna - IT Specialist</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External JavaScript Link -->
+    <script src="script.js" defer></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        
+        .resume-container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: #1a202c;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #2d3748;
+        }
+        
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, #0f172a 0%, #2563eb 100%);
+            color: white;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" opacity="0.08"><path d="M0,0 L100,0 L100,100 Z" fill="white"/></svg>');
+            background-size: cover;
+        }
+        
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            object-fit: cover;
+            margin-right: 30px;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+            color: white;
+            z-index: 1;
+            box-shadow: 0 5px 20px rgba(59, 130, 246, 0.4);
+        }
+        
+        .header-info {
+            z-index: 1;
+            flex: 1;
+        }
+        
+        .header-info h1 {
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+            font-weight: 800;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(90deg, #ffffff 0%, #93c5fd 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-info h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+            color: rgba(255, 255, 255, 0.95);
+            background: rgba(0, 0, 0, 0.2);
+            padding: 8px 16px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        
+        .header-info p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            max-width: 800px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px 16px;
+            border-radius: 8px;
+            backdrop-filter: blur(5px);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .contact-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+            border-color: rgba(59, 130, 246, 0.5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .contact-item i {
+            color: #60a5fa;
+        }
+        
+        /* Main Content */
+        .main-content {
+            display: flex;
+            padding: 0;
+        }
+        
+        /* Left Column */
+        .left-column {
+            flex: 1;
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+            padding: 30px;
+            border-right: 1px solid #334155;
+        }
+        
+        /* Right Column */
+        .right-column {
+            flex: 2;
+            padding: 30px;
+            background-color: #1a202c;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+            position: relative;
+        }
+        
+        .section-title {
+            color: #93c5fd;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid;
+            border-image: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%) 1;
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        
+        .section-title i {
+            margin-right: 12px;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            width: 24px;
+            text-align: center;
+        }
+        
+        /* Experience & Education Items */
+        .item {
+            margin-bottom: 25px;
+            padding-left: 10px;
+            border-left: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .item:hover {
+            border-left-color: #3b82f6;
+            padding-left: 15px;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .item-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #93c5fd;
+            background: linear-gradient(90deg, #93c5fd 0%, #60a5fa 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .item-subtitle {
+            color: #60a5fa;
+            font-weight: 600;
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+        
+        .item-date {
+            color: #cbd5e1;
+            font-weight: 600;
+            background: rgba(59, 130, 246, 0.1);
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+        
+        .item-description {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+        
+        .item-description ul {
+            padding-left: 20px;
+            margin-top: 8px;
+        }
+        
+        .item-description li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        
+        .item-description li::before {
+            content: '▸';
+            color: #3b82f6;
+            font-weight: bold;
+            position: absolute;
+            left: -15px;
+        }
+        
+        /* Voluntary Badge */
+        .voluntary-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+            font-weight: 600;
+            box-shadow: 0 3px 8px rgba(59, 130, 246, 0.3);
+        }
+        
+        /* Skills */
+        .skill-item {
+            margin-bottom: 18px;
+        }
+        
+        .skill-name {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #93c5fd;
+        }
+        
+        .skill-bar {
+            height: 10px;
+            background-color: #2d3748;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        
+        .skill-level {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+            border-radius: 5px;
+            position: relative;
+            transition: width 1.5s ease-in-out;
+        }
+        
+        .skill-level::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            animation: shimmer 2s infinite;
+        }
+        
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        /* Certifications */
+        .certifications-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .certification-item {
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.8) 100%);
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            border: 1px solid #334155;
+        }
+        
+        .certification-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border-color: #3b82f6;
+        }
+        
+        .cert-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .cert-logo {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            border-radius: 8px;
+        }
+        
+        .azure-logo {
+            background: linear-gradient(135deg, #0078D4 0%, #00BCF2 100%);
+            color: white;
+        }
+        
+        .aws-logo {
+            background: linear-gradient(135deg, #FF9900 0%, #FF6B00 100%);
+            color: white;
+        }
+        
+        .cert-title {
+            font-weight: 700;
+            color: #93c5fd;
+            font-size: 1.1rem;
+            flex: 1;
+        }
+        
+        .cert-status {
+            font-size: 0.85rem;
+            background: rgba(59, 130, 246, 0.2);
+            color: #60a5fa;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+        
+        /* Footer */
+        .footer {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #cbd5e1;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            position: relative;
+            overflow: hidden;
+            border-top: 1px solid #334155;
+        }
+        
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" opacity="0.05"><circle cx="50" cy="50" r="40" fill="white"/></svg>');
+            background-size: cover;
+        }
+        
+        .footer p {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .print-button {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 30px auto 0;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+        }
+        
+        .print-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.6);
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+        }
+        
+        /* Skills Tags */
+        .skills-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skill-tag {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #93c5fd;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .skill-tag:hover {
+            background: rgba(59, 130, 246, 0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            border-color: #3b82f6;
+        }
+        
+        /* References */
+        .references-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .reference-item {
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.8) 100%);
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid #3b82f6;
+            transition: all 0.3s ease;
+            border: 1px solid #334155;
+        }
+        
+        .reference-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border-color: #3b82f6;
+        }
+        
+        .reference-name {
+            font-weight: 700;
+            color: #93c5fd;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        
+        .reference-title {
+            color: #60a5fa;
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        /* Tech Stack */
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .tech-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(30, 41, 59, 0.8);
+            padding: 15px;
+            border-radius: 10px;
+            width: 80px;
+            height: 80px;
+            transition: all 0.3s ease;
+            border: 1px solid #334155;
+        }
+        
+        .tech-item:hover {
+            transform: translateY(-5px);
+            border-color: #3b82f6;
+            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.2);
+        }
+        
+        .tech-icon {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            color: #60a5fa;
+        }
+        
+        .tech-name {
+            font-size: 0.8rem;
+            color: #cbd5e1;
+            font-weight: 600;
+        }
+        
+        /* Color Palette */
+        .color-palette {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 5px;
+        }
+        
+        .color-box {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+        }
+        
+        .color-1 { background: #0f172a; }
+        .color-2 { background: #1e293b; }
+        .color-3 { background: #3b82f6; }
+        .color-4 { background: #8b5cf6; }
+        .color-5 { background: #93c5fd; }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .left-column {
+                border-right: none;
+                border-bottom: 1px solid #334155;
+            }
+            
+            .header {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 20px;
+            }
+            
+            .profile-img {
+                margin-right: 0;
+                margin-bottom: 25px;
+            }
+            
+            .contact-info {
+                justify-content: center;
+            }
+            
+            .item-header {
+                flex-direction: column;
+            }
+            
+            .item-date {
+                margin-top: 8px;
+                align-self: flex-start;
+            }
+            
+            .references-list {
+                flex-direction: column;
+            }
+            
+            .certification-item {
+                min-width: 100%;
+            }
+            
+            .tech-stack {
+                justify-content: center;
+            }
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+                color: #333;
+            }
+            
+            .resume-container {
+                box-shadow: none;
+                margin: 0;
+                max-width: 100%;
+                border: none;
+                background-color: white;
+            }
+            
+            .header {
+                background: #0f172a !important;
+                -webkit-print-color-adjust: exact;
+            }
+            
+            .left-column {
+                background: #f8fafc !important;
+                -webkit-print-color-adjust: exact;
+            }
+            
+            .right-column {
+                background: white !important;
+                -webkit-print-color-adjust: exact;
+            }
+            
+            .print-button {
+                display: none;
+            }
+            
+            .footer {
+                background: #0f172a !important;
+                -webkit-print-color-adjust: exact;
+            }
+            
+            .skill-level::after {
+                display: none;
+            }
+            
+            .contact-item:hover, .skill-tag:hover, .certification-item:hover, .reference-item:hover {
+                transform: none;
+            }
+            
+            .item-description {
+                color: #555;
+            }
+            
+            .item-title, .section-title, .cert-title, .reference-name {
+                color: #2563eb;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-img">
+                <i class="fas fa-terminal"></i>
+            </div>
+            <div class="header-info">
+                <h1>NEELO BYRON NKHUNA</h1>
+                <h2>Junior Estimator & IT Professional</h2>
+                <p>Detail-oriented IT professional with expertise in cloud computing, cost estimation, and technical support. Microsoft Azure certified with ongoing AWS Cloud Practitioner studies. Strong analytical skills with proven ability to manage complex projects and optimize IT infrastructure.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>byronnkhuna@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>079 298 5272</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kempton Park, Gauteng</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn: neelo-nkhuna</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub: NeeloByron</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Certifications Section -->
+                <section class="section">
+                    <h3 class="section-title"><i class="fas fa-certificate"></i> CLOUD CERTIFICATIONS</h3>
+                    <div class="certifications-list">
+                        <div class="certification-item">
+                            <div class="cert-header">
+                                <div class="cert-logo azure-logo">
+                                    <i class="fab fa-microsoft"></i>
+                                </div>
+                                <div class="cert-title">Microsoft Azure Fundamentals</div>
+                                <div class="cert-status">AZ-900 Certified</div>
+                            </div>
+                            <div class="item-description">
+                                Cloud concepts, Azure services, security, privacy, compliance, trust, and pricing models. Expertise in Azure compute, networking, storage, and database services.
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-header">
+                                <div class="cert-logo aws-logo">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <div class="cert-title">AWS Cloud Practitioner</div>
+                                <div class="cert-status">In Progress</div>
+                            </div>
+                            <div class="item-description">
+                                Currently pursuing certification in AWS cloud fundamentals including AWS Cloud concepts, core services, security, architecture, pricing, and support.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Technical Skills -->
+                <section class="section">
+                    <h3 class="section-title"><i class="fas fa-laptop-code"></i> TECHNICAL SKILLS</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Cloud Computing (Azure/AWS)</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>IT Infrastructure & Networking</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Technical Support & Troubleshooting</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Estimation & Cost Analysis</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>System Administration</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Tech Stack -->
+                <section class="section">
+                    <h3 class="section-title"><i class="fas fa-server"></i> TECH STACK</h3>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-windows"></i>
+                            </div>
+                            <div class="tech-name">Windows Server</div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="tech-name">Azure</div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="tech-name">AWS</div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="tech-name">Networking</div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="tech-name">Databases</div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="tech-name">Security</div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Additional Skills -->
+                <section class="section">
+                    <h3 class="section-title"><i class="fas fa-star"></i> CORE COMPETENCIES</h3>
+                    <div class="skills-tags">
+                        <div class="skill-tag">Cloud Architecture</div>
+                        <div class="skill-tag">Infrastructure Design</div>
+                        <div class="skill-tag">Cost Optimization</div>
+                        <div class="skill-tag">IT Project Management</div>
+                        <div class="skill-tag">Technical Documentation</div>
+                        <div class="skill-tag">System Troubleshooting</div>
+                        <div class="skill-tag">Vendor Management</div>
+                        <div class="skill-tag">Disaster Recovery</div>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Professional Experience Section -->
+                <section class="section">
+                    <h3 class="section-title"><i class="fas fa-briefcase"></i> PROFESSIONAL EXPERIENCE</h3>
+                    
+                    <div class="item">
+                        <div class="item-header">
+                            <div class="item-title">Junior Estimator</div>
+                            <div class="item-date">Nov 2022 – July 2025</div>
+                        </div>
+                        <div class="item-subtitle">Burgers Business Solution</div>
+                        <div class="item-description">
+                            <ul>
+                                <li>Research, source, negotiate and obtain competitive prices from IT hardware and software suppliers</li>
+                                <li>Prepare comprehensive material and cost estimates for IT infrastructure projects</li>
+                                <li>Develop accurate labor estimates for technical implementation and support services</li>
+                                <li>Manage vendor and contractor bids to ensure optimal pricing and SLA compliance</li>
+                                <li>Maintain detailed IT asset databases and ensure accurate data entry and backup</li>
+                                <li>Build and maintain relationships with clients, IT suppliers, and technical stakeholders</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="item-header">
+                            <div class="item-title">Technical Support Analyst <span class="voluntary-badge">Voluntary Part-Time</span></div>
+                            <div class="item-date">2018 - 2020</div>
+                        </div>
+                        <div class="item-subtitle">Local IT Services Provider, Johannesburg</div>
+                        <div class="item-description">
+                            <ul>
+                                <li>Provided remote and on-site technical support for SMB clients to gain hands-on experience</li>
+                                <li>Configured and maintained Windows Server environments including Active Directory, DNS, and DHCP</li>
+                                <li>Implemented backup solutions and disaster recovery plans for critical business data</li>
+                                <li>Assisted with network troubleshooting including connectivity, VPN, and firewall configuration</li>
+                                <li>Developed user training materials and technical documentation for software applications</li>
+                                <li>Monitored system performance and implemented security best practices</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="item-header">
+                            <div class="item-title">Education Assistant</div>
+                            <div class="item-date">Nov 2021 – Aug 2022</div>
+                        </div>
+                        <div class="item-subtitle">Sekabate Primary School</div>
+                        <div class="item-description">
+                            <ul>
+                                <li>Supported IT learning activities and basic computer literacy training</li>
+                                <li>Assisted with maintenance of computer lab equipment and software</li>
+                                <li>Supervised student activities in the technology center</li>
+                                <li>Performed administrative tasks and assisted with educational program coordination</li>
+                                <li>Participated in ongoing professional development and training</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Education Section -->
+                <section class="section">
+                    <h3 class="section-title"><i class="fas fa-graduation-cap"></i> EDUCATION</h3>
+                    <div class="item">
+                        <div class="item-header">
+                            <div class="item-title">National Diploma: Information Technology</div>
+                            <div class="item-date">2016 - 2019</div>
+                        </div>
+                        <div class="item-subtitle">Tshwane University of Technology</div>
+                        <div class="item-description">
+                            <ul>
+                                <li>Networking Fundamentals and System Administration</li>
+                                <li>Cloud Computing and Virtualization Technologies</li>
+                                <li>C++ Programming and Software Development</li>
+                                <li>Database Management and IT Project Management</li>
+                                <li>Information Security and Cybersecurity Fundamentals</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="item-header">
+                            <div class="item-title">Grade 12 - Mathematics & Sciences</div>
+                            <div class="item-date">2010 - 2015</div>
+                        </div>
+                        <div class="item-subtitle">Mohlarutse Secondary School</div>
+                        <div class="item-description">
+                            <ul>
+                                <li>Mathematics, Physical Sciences, and Life Sciences</li>
+                                <li>English, Sepedi, and Life Orientation</li>
+                                <li>Agricultural Sciences</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- References -->
+                <section class="section">
+                    <h3 class="section-title"><i class="fas fa-comments"></i> PROFESSIONAL REFERENCES</h3>
+                    <div class="references-list">
+                        <div class="reference-item">
+                            <div class="reference-name">Mrs Tshepo Tije</div>
+                            <div class="reference-title">Senior Educator & IT Coordinator</div>
+                            <div class="contact-item" style="background: transparent; padding: 5px 0; border: none;">
+                                <i class="fas fa-phone" style="color: #60a5fa;"></i>
+                                <span style="color: #cbd5e1;">+27 73 554 4394</span>
+                            </div>
+                            <div class="contact-item" style="background: transparent; padding: 5px 0; border: none;">
+                                <i class="fas fa-envelope" style="color: #60a5fa;"></i>
+                                <span style="color: #cbd5e1;">tshepo.tije@education.gov.za</span>
+                            </div>
+                        </div>
+                        <div class="reference-item">
+                            <div class="reference-name">Mrs Tebogo Constance Matuludi</div>
+                            <div class="reference-title">Electrical Engineer & Project Manager</div>
+                            <div class="contact-item" style="background: transparent; padding: 5px 0; border: none;">
+                                <i class="fas fa-phone" style="color: #60a5fa;"></i>
+                                <span style="color: #cbd5e1;">+27 84 771 3392</span>
+                            </div>
+                            <div class="contact-item" style="background: transparent; padding: 5px 0; border: none;">
+                                <i class="fas fa-envelope" style="color: #60a5fa;"></i>
+                                <span style="color: #cbd5e1;">t.matuludi@engineeringfirm.co.za</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>IT Professional Resume | Updated: June 2025 | References available upon request</p>
+            <div class="color-palette">
+                <div class="color-box color-1"></div>
+                <div class="color-box color-2"></div>
+                <div class="color-box color-3"></div>
+                <div class="color-box color-4"></div>
+                <div class="color-box color-5"></div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Print Button -->
+    <button class="print-button" onclick="window.print()">
+        <i class="fas fa-print"></i> Print / Save as PDF
+    </button>
+    
+    <script>
+        // Animate skill bars on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate skill bars
+            const skillBars = document.querySelectorAll('.skill-level');
+            skillBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 300);
+            });
+            
+            // Print button functionality
+            const printButton = document.querySelector('.print-button');
+            printButton.addEventListener('click', function() {
+                setTimeout(() => {
+                    alert('Select "Save as PDF" for the best color print results.');
+                }, 100);
+            });
+            
+            // Add hover effects to items
+            const items = document.querySelectorAll('.item');
+            items.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateX(5px)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateX(0)';
+                });
+            });
+            
+            // Add glow effect to tech stack items
+            const techItems = document.querySelectorAll('.tech-item');
+            techItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.boxShadow = '0 5px 20px rgba(59, 130, 246, 0.4)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.boxShadow = '0 5px 15px rgba(59, 130, 246, 0.2)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
