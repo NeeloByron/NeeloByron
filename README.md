@@ -1,18 +1,26 @@
 ## Hi there, I'm Neelo Byron Nkhuna 👋
 
 ## 🚀 About Me
-**☁️ Clould Administrator | Azure Certified Professional**
+**☁️ Clould & Web Application Professional | AWS Focused**
 
-💡I'm driven by  the powerful synergy between Microsoft Azure's intelligent cloud platform and cutting-edge AI capabilities. My passion lies in architecting solutions where cloud infrastructure doesn't just host applications it enhances them with intelligience, scalability and transformative potential.
+💡I specialize in building and deploying modern web applications on AWS. My expertise spans from designing scalable cloud infrastructure to developing and optimizing the full-stack web applications that run on it ensuring performance, security and resilience from end to end.
+My passion lies in merging cloud architecture with practical web app development using AWS services like serverless compute, managed databases and global content delivery to create intelligent, cost-effective and user-focused solutions.
 
 ## 🎓 Certifications
--Microsoft Certified: Azure Fundamentals (AZ-900)
--Microsoft Certified: Azure Administrator Associate (AZ-104)
+-AWS Certified Cloud Practitioner (In progress)
+-AWS Solutions Architect Associate (Targeted)
 
 ## 🔧 Technical Skill
-- **Cloud:** Microsoft Azure, IaaS/PaaS/SaaS
-- **Infrastructure:** Virtual Networks, Storage, Compute, Security
-- **Tools:** Azure CLI, PowerShell, ARM Templates, Azure Monitor
+ ☁️ CLoud (AWS)
+- Compute: EC2, Lambda, Elastic Beanstalk | Storage: S3, EBS, EFS
+- Networking: VPC, Route 53, CloudFront, Load Balancers
+- Security & identity: IAM, Security Groups, KMS, WAF
+- Management& Automation: ClouldWatch, CloudFormation, AWS CLI
+
+🌐 Web Application Development
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: 
+  
 
 ## 📁 Featured Projects
 ### [Azure Certifications Portfolio] (link)
