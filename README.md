@@ -19,8 +19,17 @@ My passion lies in merging cloud architecture with practical web app development
 
 🌐 Web Application Development
 - Frontend: HTML, CSS, JavaScript, React
-- Backend: 
-  
+- Backend: Node.js, Python
+- Containerization: Docker, ECS, EKS
+- Web Servers & Caching: NGINX, Amazon ElastiCachee
+
+🗃️ Databases
+-Relational: Amazon RDS (PostgreSQL, MySQL), Aurora
+-NoSQL: DynamoDB
+
+🛠️DevOps & CI/CD
+- CI/CD: AWS CodePipeline, GitHub Actions
+- MOnitoring & Logging: CloudWatch, AWS X-ray
 
 ## 📁 Featured Projects
 ### [AWS Certifications Portfolio] (link)
