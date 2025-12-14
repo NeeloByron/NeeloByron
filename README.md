@@ -23,7 +23,7 @@ My passion lies in merging cloud architecture with practical web app development
   
 
 ## 📁 Featured Projects
-### [Azure Certifications Portfolio] (link)
+### [AWS Certifications Portfolio] (link)
 
 ## 🔗 Connect with Me
 - **📫 Reach me via email:** byronnkhuna@gmail.com
