@@ -1,40 +1,32 @@
 ## Hi there, I'm Neelo Byron Nkhuna 👋
 
-## 🚀 About Me
-**☁️ Clould & Web Application Professional | AWS Focused**
+Aspiring Cloud Professional | Microsoft Azure Fundamentals Certified
 
-💡I specialize in building and deploying modern web applications on AWS. My expertise spans from designing scalable cloud infrastructure to developing and optimizing the full-stack web applications that run on it ensuring performance, security and resilience from end to end.
-My passion lies in merging cloud architecture with practical web app development using AWS services like serverless compute, managed databases and global content delivery to create intelligent, cost-effective and user-focused solutions.
+📍 City of Johannesburg, Gauteng, South Africa
 
-## 🎓 Certifications
--AWS Certified Cloud Practitioner (In progress)
--AWS Solutions Architect Associate (Targeted)
+📧 Contact Info | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([YOUR_PROFILE_LINK](https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/)) |  🐙 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NeeloByron)
 
-## 🔧 Technical Skill
- ☁️ CLoud (AWS)
-- Compute: EC2, Lambda, Elastic Beanstalk | Storage: S3, EBS, EFS
-- Networking: VPC, Route 53, CloudFront, Load Balancers
-- Security & identity: IAM, Security Groups, KMS, WAF
-- Management& Automation: ClouldWatch, CloudFormation, AWS CLI
+## 👋 About Me
+Aspiring Cloud Professional with a strong foundation in cloud computing and IT infrastructure.
+Certified in Microsoft Azure Fundamentals (AZ-900) and experienced in AWS Educate learning paths, including serverless, security, cloud operations, databases, networking and compute. Passionate about leveraging cloud technologies to build scalable, secure and effient solutions. Currently enhancing my skills through hands-on projects and continuous learning.
 
-🌐 Web Application Development
-- Frontend: HTML, CSS, JavaScript, React
-- Backend: Node.js, Python
-- Containerization: Docker, ECS, EKS
-- Web Servers & Caching: NGINX, Amazon ElastiCachee
+## 🚀 Technical Skills
+**Cloud Platforms**
 
-🗃️ Databases
--Relational: Amazon RDS (PostgreSQL, MySQL), Aurora
--NoSQL: DynamoDB
+**Microsoft Azure**: Azure Fundamentals, Virtual Networks, Cost Management |  
+**AWS**: EC2, S3, Lambda, RDS, CloudWatch
 
-🛠️DevOps & CI/CD
-- CI/CD: AWS CodePipeline, GitHub Actions
-- MOnitoring & Logging: CloudWatch, AWS X-ray
+##Cloud Concepts
+- IaaS, PaaS, SaaS Models
+- Virtualization, Networking Fundamentals
+- Cloud Security & Compliance
+- Infrastructure as Code (IaC) basics
 
-## 📁 Featured Projects
-### [[AWS Certifications Portfolio](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification)] ([link](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification))
+## Certifications
+**-Microsoft Certified:** Azure Fundamentals (AZ-900) - Feb 2026  
 
-## 🔗 Connect with Me
-- **📫 Reach me via email:** byronnkhuna@gmail.com
-- **in:** https://www.linkedin.com/in/neelo-nkhuna-ba2b9b115/
-
+## Other Skills
+- IT Support & System Administration
+- Technical Estimation & Cost Management
+- Procurement & Vendor Negotiation
+- Project Documentation
