@@ -32,7 +32,7 @@ My passion lies in merging cloud architecture with practical web app development
 - MOnitoring & Logging: CloudWatch, AWS X-ray
 
 ## 📁 Featured Projects
-### [AWS Certifications Portfolio] (link)
+### [[AWS Certifications Portfolio](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification)] ([link](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification))
 
 ## 🔗 Connect with Me
 - **📫 Reach me via email:** byronnkhuna@gmail.com
