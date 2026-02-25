@@ -22,6 +22,11 @@ Certified in Microsoft Azure Fundamentals (AZ-900) and experienced in AWS Educat
 - Cloud Security & Compliance
 - Infrastructure as Code (IaC) basics
 
+## 🚀 Featured Projects
+
+### [AWS Bedrock Text Playground Lab](link-to-repo)
+Hands-on exploration of Amazon's generative AI service, testing foundation models and prompt engineering techniques.
+
 ## Certifications
 **-Microsoft Certified:** Azure Fundamentals (AZ-900) - Feb 2026  
 
