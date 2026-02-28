@@ -28,7 +28,8 @@ Certified in Microsoft Azure Fundamentals (AZ-900) and experienced in AWS Educat
 Hands-on exploration of Amazon's generative AI service, testing foundation models and prompt engineering techniques.
 
 ## Certifications
-**-Microsoft Certified:** Azure Fundamentals (AZ-900) - Feb 2026  
+**-Microsoft Certified:** Azure Fundamentals (AZ-900) - Feb 2026
+ ![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 ## Other Skills
 - IT Support & System Administration
