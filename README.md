@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Neelo Byron Nkhuna 👋</h1>
 
 <p align="center">
-  <b>Aspiring Cloud Engineer · Microsoft Azure Focused · Self-Taught</b><br/>
+  <b>Aspiring Cloud Engineer · Microsoft Azure Focused · Learning Web Development · Self-Taught</b><br/>
   📍 Johannesburg, Gauteng, South Africa
 </p>
 
@@ -20,7 +20,9 @@
 
 I'm a self-taught aspiring Cloud Engineer with a strong focus on **Microsoft Azure**. Certified in **Azure Fundamentals (AZ-900)** and currently preparing for the **Azure Administrator Associate (AZ-104)**, I'm building hands-on experience through real-world labs and projects covering identity management, networking, storage, and compute.
 
-I'm passionate about cloud infrastructure, security, and building solutions that are scalable and efficient. Every project in my GitHub is a step toward becoming a well-rounded Azure professional.
+Alongside cloud, I'm actively learning web development building projects with HTML5, CSS and JavaScript to develop a well-rounded foundation in both infrastructure and software development.
+
+I'm passionate about cloud infrastructure,security and building solutions that are scalable and efficient. Every project in my GitHub is a step toward becoming a well rounded tech professional.
 
 ---
 
@@ -37,15 +39,12 @@ I'm passionate about cloud infrastructure, security, and building solutions that
 
 ### ☁️ Cloud Platforms
 
-**Microsoft Azure** *(Primary)*
+**Microsoft Azure** 
 - Azure Active Directory / Microsoft Entra ID
 - Virtual Machines, Virtual Networks & Subnets, NSGs
 - Azure Blob Storage, Storage Accounts
 - Azure Cost Management & Resource Groups
 - Role-Based Access Control (RBAC)
-
-**AWS** *(Secondary)*
-- EC2, S3, Lambda, RDS, CloudWatch
 
 ### 🧱 Cloud Concepts
 - IaaS, PaaS, SaaS models
@@ -67,41 +66,35 @@ I'm passionate about cloud infrastructure, security, and building solutions that
 ### 🔐 [Azure Active Directory / Entra ID Lab](https://github.com/NeeloByron)
 Hands-on configuration of Microsoft Entra ID (formerly Azure AD) including user and group management, role assignments, and conditional access policies. Covers identity fundamentals aligned with AZ-104 objectives.
 
-**Skills demonstrated:** Entra ID, RBAC, Conditional Access, User/Group Management
+**Skills demonstrated:** `Entra ID`, `RBAC`, `Conditional Access`, `User/Group Management`
 
 ---
 
 ### 🗄️ [Azure Storage & Blob Labs](https://github.com/NeeloByron)
 Practical labs focused on creating and managing Azure Storage Accounts, configuring Blob containers, setting access tiers, and implementing lifecycle management policies.
 
-**Skills demonstrated:** Azure Blob Storage, Access Policies, Storage Tiers, Redundancy Options
+**Skills demonstrated:** `Azure Blob Storage`, `Access Policies`, `Storage Tiers`, `Redundancy Options`
 
 ---
 
 ### 🌐 [Azure VM & Networking Labs](https://github.com/NeeloByron)
 End-to-end labs covering deployment of Azure Virtual Machines, configuration of Virtual Networks (VNets), subnets, Network Security Groups (NSGs), and basic connectivity testing.
 
-**Skills demonstrated:** Azure VMs, VNet, Subnets, NSGs, Peering, Azure CLI basics
+**Skills demonstrated:** `Azure VMs`, `VNet`, `Subnets`, `NSGs`, `Peering`, `Azure CLI basics`
 
 ---
-
-### 🤖 [AWS Bedrock Text Playground Lab](https://github.com/NeeloByron)
-Hands-on exploration of Amazon Bedrock, testing foundation models and prompt engineering techniques for generative AI use cases.
-
-**Skills demonstrated:** AWS Bedrock, Foundation Models, Prompt Engineering
-
+ 
+### 🎨 [Frontend Mini Projects](https://github.com/NeeloByron/frontend-mini-projects)
+Small, focused frontend projects built with vanilla HTML5, CSS, and JavaScript — including a todo list app and quiz app
+ 
+**Skills demonstrated:** `HTML5` `CSS3` `JavaScript` 
+ 
 ---
 
 ## 📈 Currently Learning
 
 - 🔄 **AZ-104** – Azure Administrator Associate (in progress)
-- 📘 Azure Monitor & Log Analytics
-- 🔑 Azure Key Vault & Security best practices
+- 🌐 **HTML, CSS & JavaScript** — Vanilla frontend development
 - 🏗️ ARM Templates & Bicep (Infrastructure as Code)
 
----
 
-<p align="center">
-  <i>"Cloud skills are built one lab at a time."</i><br/>
-  💬 Open to collaborations, cloud discussions, and learning opportunities!
-</p>
