@@ -24,14 +24,14 @@
 
 I'm a self-taught aspiring software developer from Johannesburg, building a solid foundation in frontend web development while leveraging a background in IT infrastructure and cloud computing.
 
-I don't just follow tutorials — I build things, break them, and figure out why. My projects are how I learn.
+I don't just follow tutorials I build things, break them, and figure out why. My projects are how I learn.
 
 What makes me different: I understand how the web works at every layer — from the JavaScript running in the browser to the Azure infrastructure it can run on. I'm working toward becoming a full-stack developer with real cloud knowledge.
 
-- 🔨 Currently building: **frontend projects with vanilla JS** — todo apps, quiz apps, API-driven UIs
+- 🔨 Currently building: **frontend projects with vanilla JS** todo apps, quiz apps, API-driven UIs
 - 📖 Currently learning: **Python**, **async JavaScript**, **GitHub workflow**
 - 🎯 Goal: Land my first junior developer role or programme placement in 2025
-- ☁️ Background: Microsoft Azure AZ-900 certified — cloud concepts aren't new to me
+- ☁️ Background: Microsoft Azure AZ-900 certifiedgit cloud concepts aren't new to me
 
 ---
 
@@ -100,15 +100,6 @@ Small, focused JavaScript apps built to practice core concepts.
 - [ ] Expense tracker with full CRUD and localStorage
 - [ ] Python automation scripts
 - [ ] Deploying portfolio to GitHub Pages
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NeeloByron&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeeloByron&layout=compact&theme=tokyonight&hide_border=true" height="160" />
-</p>
 
 ---
 
