@@ -1,102 +1,116 @@
-# Portfolio Website · Modern Resume 
+<h1 align="center">Hey, I'm Neelo Byron Nkhuna 👋</h1>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![FontAwesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)
+<p align="center">
+  <strong>Aspiring Software Developer</strong> · Building with JavaScript, HTML & CSS · Cloud-Aware · Self-Taught
+</p>
 
-> **A fully responsive, modern personal portfolio & resume UI — built with vanilla HTML5, CSS3, and JavaScript.**
+<p align="center">
+  📍 Johannesburg, Gauteng, South Africa
+</p>
 
-![Portfolio Preview](https://via.placeholder.com/800x450?text=Modern+Resume+UI+Preview)
+<p align="center">
+  <a href="mailto:byronnkhuna@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-byronnkhuna%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/neelo-nkhuna">
+    <img src="https://img.shields.io/badge/LinkedIn-neelo--nkhuna-0077B5?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=NeeloByron&color=3b82f6&style=flat&label=Profile+Views" />
+</p>
 
-## 📌 Project Overview
+---
 
-This repository contains my **personal portfolio website** that doubles as a professional resume interface. Designed with a **dark/light aesthetic**, the project showcases my skills as an aspiring Cloud Engineer and Web Developer. The layout emphasizes clean typography, interactive components, and a print-friendly experience — perfect for sharing with recruiters and potential employers.
+## 👨‍💻 About Me
 
-### ✨ Key Features
+I'm a self-taught aspiring software developer from Johannesburg, building a solid foundation in frontend web development while leveraging a background in IT infrastructure and cloud computing.
 
-- 🎨 **Fully responsive design** — Seamless experience across desktop, tablet, and mobile devices.
-- 🌗 **Modern dark/light aesthetic** — Professional gradient backgrounds with subtle glassmorphism effects.
-- 🖨️ **Print-friendly CSS** — Optimized for saving as PDF or printing directly from the browser.
-- ⚡ **Interactive UI components** — Animated skill bars, hover effects, and smooth transitions.
-- 📱 **Mobile-first approach** — Flexbox, CSS Grid, and fluid layouts ensure accessibility on all screen sizes.
-- 🔧 **Vanilla JavaScript** — Lightweight interactivity without external dependencies (except FontAwesome).
-- 🧩 **Modular component design** — Easy to customize sections for experience, projects, certifications, and references.
+I don't just follow tutorials — I build things, break them, and figure out why. My projects are how I learn.
+
+What makes me different: I understand how the web works at every layer — from the JavaScript running in the browser to the Azure infrastructure it can run on. I'm working toward becoming a full-stack developer with real cloud knowledge.
+
+- 🔨 Currently building: **frontend projects with vanilla JS** — todo apps, quiz apps, API-driven UIs
+- 📖 Currently learning: **Python**, **async JavaScript**, **GitHub workflow**
+- 🎯 Goal: Land my first junior developer role or programme placement in 2025
+- ☁️ Background: Microsoft Azure AZ-900 certified — cloud concepts aren't new to me
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology       | Purpose                                      |
-|------------------|----------------------------------------------|
-| **HTML5**        | Semantic document structure & accessibility |
-| **CSS3**         | Responsive layouts, Flex/Grid, animations   |
-| **JavaScript**   | Skill bar animations, interactive elements  |
-| **FontAwesome**  | High-quality icons for contact & tech stack |
-| **Google Fonts** | Modern typography (Inter font family)       |
+**Languages & Frontend**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 
 ---
 
-## 📂 Project Structure
+## 🚀 Featured Projects
 
-NeeloByron/
-├── index.html # Main portfolio/resume page
-├── style.css # Custom styles & responsive breakpoints
-├── script.js # Interactive behaviors (animations, print dialog)
-└── README.md # Project documentation (you are here)
+### 🎨 [Interactive Developer Resume](https://github.com/NeeloByron/NeeloByron)
+A fully hand-coded resume built with HTML5, CSS3, and vanilla JavaScript — no frameworks, no templates.
 
----
+Features I built from scratch:
+- Animated skill bars using the **IntersectionObserver API**
+- Dynamic modal system for print, contact, and skill details
+- Light/dark theme toggle with **localStorage** persistence
+- Scroll progress bar and floating action buttons
+- Fully responsive layout with print stylesheet
 
-
-## 🚀 Live Demo
-
-🔗 **[View the live portfolio here](https://github.com/NeeloByron/NeeloByron)**  
-
----
-
-## 🧩 Sections Included
-
-1. **Hero Header** — Name, title, bio, and contact badges with icons.
-2. **Cloud Certifications** — AZ-900, AZ-104 (in progress), and self-taught web dev recognition.
-3. **Technical Proficiency** — Visual skill bars (HTML/CSS, JS, Azure, Git, etc.).
-4. **Tech Stack Showcase** — Icon-based grid highlighting core tools.
-5. **Personal Projects & Labs** — Azure labs, frontend mini-apps, and portfolio itself.
-6. **Professional Experience** — Junior Estimator & Technical Support roles.
-7. **Education & Learning Path** — National Diploma + self-taught cloud/web journey.
-8. **References** — Professional contacts displayed in styled cards.
-9. **Footer** — Social/tech icons and update timestamp.
-
+> **Stack:** HTML5 · CSS3 · Vanilla JavaScript
 
 ---
 
-## 📱 Responsive Breakpoints
+### ☁️ [Azure Certification Portfolio](https://github.com/NeeloByron/Azure-Certification-Portfolio)
+Documented lab work covering my journey through Microsoft Azure certifications.
 
-| Device      | Breakpoint | Behavior                                |
-|-------------|------------|-----------------------------------------|
-| Desktop     | ≥ 1024px   | Two-column layout, full-width hero      |
-| Tablet      |768px–1023px| Reduced padding, flexible grid          |
-| Mobile      | < 768px    |Single column, centered content, stacked |
+Labs included: Entra ID & RBAC · Virtual Machines & VNets · Blob Storage · NSGs · Cost Management
 
----
-
-## 🔧 Customization Guide
-
-Want to adapt this template for your own portfolio? Here's how:
-
-1. **Update personal info** — Replace name, bio, contact details, and links in `index.html`.
-2. **Swap skills & percentages** — Modify the `.skill` divs inside the left column.
-3. **Change color theme** — Edit the gradient variables in `style.css` (search for `#3b82f6`, `#8b5cf6`).
-4. **Add your own projects** — Duplicate the `.exp-item` structure in the "Personal Projects & Labs" section.
-5. **Modify certifications** — Update the `.cert-card` elements with your badges and statuses.
-6. **Replace FontAwesome icons** — Use any [FontAwesome 6 free icons](https://fontawesome.com/search) by changing the `i` class.
-7. **Adjust print styles** — Modify the `@media print` block for PDF preferences.
+> **Stack:** Azure Portal · Azure CLI · Shell scripting
 
 ---
 
-## 🧪 Running Locally
+### 🧩 [Frontend Mini Projects](https://github.com/NeeloByron/frontend-mini-projects)
+Small, focused JavaScript apps built to practice core concepts.
 
-Clone the repository and open `index.html` in your browser:
+> **Stack:** HTML5 · CSS3 · JavaScript
 
-```bash
-git clone https://github.com/NeeloByron/NeeloByron.git
-cd NeeloByron
+---
+
+## 📜 Certifications
+
+| Certification | Provider | Status |
+|---|---|---|
+| Azure Fundamentals (AZ-900) | Microsoft | ✅ Certified — Feb 2026 |
+| Azure Administrator Associate (AZ-104) | Microsoft | 🔄 In Progress |
+
+---
+
+## 📈 Currently Working On
+
+- [ ] Weather app using a live API (`fetch` + `async/await`)
+- [ ] Expense tracker with full CRUD and localStorage
+- [ ] Python automation scripts
+- [ ] Deploying portfolio to GitHub Pages
+
+---
+
+## 🤝 Let's Connect
+
+I'm open to junior developer opportunities, learnership programmes, and collaborations. If you're building something and need an extra pair of hands — or just want to talk code — reach out.
+
+📧 **byronnkhuna@gmail.com**
+
+---
+
+<p align="center">
+  <em>Every commit is a step forward. Still learning. Always building.</em>
+</p>
