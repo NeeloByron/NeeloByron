@@ -105,7 +105,7 @@ Small, focused JavaScript apps built to practice core concepts.
 
 ## 🤝 Let's Connect
 
-I'm open to junior developer opportunities, learnership programmes, and collaborations. If you're building something and need an extra pair of hands — or just want to talk code — reach out.
+I'm open to junior developer opportunities, learnership programmes, and collaborations. If you're building something and need an extra pair of hands or just want to talk code reach out.
 
 📧 **byronnkhuna@gmail.com**
 
