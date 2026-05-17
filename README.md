@@ -26,7 +26,7 @@ I'm a self-taught aspiring software developer from Johannesburg, building a soli
 
 I don't just follow tutorials I build things, break them, and figure out why. My projects are how I learn.
 
-What makes me different: I understand how the web works at every layer — from the JavaScript running in the browser to the Azure infrastructure it can run on. I'm working toward becoming a full-stack developer with real cloud knowledge.
+What makes me different: I understand how the web works at every layer from the JavaScript running in the browser to the Azure infrastructure it can run on. I'm working toward becoming a full-stack developer with real cloud knowledge.
 
 - 🔨 Currently building: **frontend projects with vanilla JS** todo apps, quiz apps, API-driven UIs
 - 📖 Currently learning: **Python**, **async JavaScript**, **GitHub workflow**
