@@ -92,14 +92,6 @@ Small, focused JavaScript apps built to practice core concepts.
 | Azure Fundamentals (AZ-900) | Microsoft | ✅ Certified — Feb 2026 |
 | Azure Administrator Associate (AZ-104) | Microsoft | 🔄 In Progress |
 
----
-
-## 📈 Currently Working On
-
-- [ ] Weather app using a live API (`fetch` + `async/await`)
-- [ ] Expense tracker with full CRUD and localStorage
-- [ ] Python automation scripts
-- [ ] Deploying portfolio to GitHub Pages
 
 ---
 
