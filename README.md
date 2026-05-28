@@ -48,8 +48,6 @@ What makes me different: I understand how the web works at every layer from the 
 
 ---
 
-## 🚀 Featured Projects
-
 ### 🎨 [Interactive Developer Resume](https://github.com/NeeloByron/NeeloByron)
 A fully hand-coded resume built with HTML5, CSS3, and vanilla JavaScript — no frameworks, no templates.
 
@@ -70,13 +68,6 @@ Documented lab work covering my journey through Microsoft Azure certifications.
 Labs included: Entra ID & RBAC · Virtual Machines & VNets · Blob Storage · NSGs · Cost Management
 
 > **Stack:** Azure Portal · Azure CLI · Shell scripting
-
----
-
-### 🧩 [Frontend Mini Projects](https://github.com/NeeloByron/frontend-mini-projects)
-Small, focused JavaScript apps built to practice core concepts.
-
-> **Stack:** HTML5 · CSS3 · JavaScript
 
 ---
 
