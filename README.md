@@ -48,20 +48,6 @@ What makes me different: I understand how the web works at every layer from the 
 
 ---
 
-### 🎨 [Interactive Developer Resume](https://github.com/NeeloByron/NeeloByron)
-A fully hand-coded resume built with HTML5, CSS3, and vanilla JavaScript — no frameworks, no templates.
-
-Features I built from scratch:
-- Animated skill bars using the **IntersectionObserver API**
-- Dynamic modal system for print, contact, and skill details
-- Light/dark theme toggle with **localStorage** persistence
-- Scroll progress bar and floating action buttons
-- Fully responsive layout with print stylesheet
-
-> **Stack:** HTML5 · CSS3 · Vanilla JavaScript
-
----
-
 ### ☁️ [Azure Certification Portfolio](https://github.com/NeeloByron/Azure-Certification-Portfolio)
 Documented lab work covering my journey through Microsoft Azure certifications.
 
