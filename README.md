@@ -47,6 +47,17 @@ What makes me different: I understand how the web works at every layer from the 
 ![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 
 ---
+## 🎓 CodeTribe Academy — mLab Bootcamp
+ 
+Currently training at **mLab's CodeTribe Academy** remote — an employer-driven software development programme building real-world skills in web and mobile development.
+ 
+| Repo | Topic | Skills |
+|---|---|---|
+| [CodeTribe-Bootcamp](https://github.com/NeeloByron/CodeTribe-Bootcamp) | HTML & CSS Fundamentals | `HTML5` `CSS3` `GitHub` |
+| [Javascript-Bootcamp-Tasks-1](https://github.com/NeeloByron/Javascript-Bootcamp-Tasks-1) | JS Task 1 — Data Types, Operators & Expressions | `JavaScript` `Data Types` `Operators` |
+| [Javascript-Bootcamp-Task-2](https://github.com/NeeloByron/Javascript-Bootcamp-Task-2) | JS Task 2 — Functions, Arrays & Objects | `JavaScript` `Functions` `Arrays` `Objects` |
+ 
+---
 
 ### ☁️ [Azure Certification Portfolio](https://github.com/NeeloByron/Azure-Certification-Portfolio)
 Documented lab work covering my journey through Microsoft Azure certifications.
