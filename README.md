@@ -57,6 +57,7 @@ Currently training at **mLab's CodeTribe Academy** remote — an employer-driven
 | [Javascript-Bootcamp-Tasks-1](https://github.com/NeeloByron/Javascript-Bootcamp-Tasks-1) | JS Task 1 — Data Types, Operators & Expressions | `JavaScript` `Data Types` `Operators` |
 | [Javascript-Bootcamp-Task-2](https://github.com/NeeloByron/Javascript-Bootcamp-Task-2) | JS Task 2 — Functions, Arrays & Objects | `JavaScript` `Functions` `Arrays` `Objects` |
 | [Javascript-Bootcamp-Task-3](https://github.com/NeeloByron/Javascript-Bootcamp-Task-3) | JS Task 3 — Functions, Arrays & Objects | `DOM` `Access dom` `Events` `Asynchronous` |
+| [newsletter-sign-up-with-success-message-main](https://github.com/NeeloByron/newsletter-sign-up-with-success-message-main) | Final Project — Frontend Mentor - Newsletter sign-up form with success message solution | `Semantic HTML5 markup` `CSS custom properties` `Mobile-first workflow` `Vanilla JavaSCript` |
  
 ---
 
