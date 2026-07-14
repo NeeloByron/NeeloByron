@@ -48,16 +48,16 @@ What makes me different: I understand how the web works at every layer from the 
 
 ---
 ## 🎓 CodeTribe Academy — mLab Bootcamp
- 
-Currently training at **mLab's CodeTribe Academy** remote — an employer-driven software development programme building real-world skills in web and mobile development.
- 
-| Repo | Topic | Skills |
-|---|---|---|
-| [CodeTribe-Bootcamp](https://github.com/NeeloByron/CodeTribe-Bootcamp) | HTML & CSS Fundamentals | `HTML5` `CSS3` `GitHub` |
-| [Javascript-Bootcamp-Tasks-1](https://github.com/NeeloByron/Javascript-Bootcamp-Tasks-1) | JS Task 1 — Data Types, Operators & Expressions | `JavaScript` `Data Types` `Operators` |
-| [Javascript-Bootcamp-Task-2](https://github.com/NeeloByron/Javascript-Bootcamp-Task-2) | JS Task 2 — Functions, Arrays & Objects | `JavaScript` `Functions` `Arrays` `Objects` |
-| [Javascript-Bootcamp-Task-3](https://github.com/NeeloByron/Javascript-Bootcamp-Task-3) | JS Task 3 — Functions, Arrays & Objects | `DOM` `Access dom` `Events` `Asynchronous` |
-| [newsletter-sign-up-with-success-message-main](https://github.com/NeeloByron/newsletter-sign-up-with-success-message-main) | Final Project — Frontend Mentor - Newsletter sign-up form with success message solution | `Semantic HTML5 markup` `CSS custom properties` `Mobile-first workflow` `Vanilla JavaSCript` |
+
+Building real-world dev skills remotely. Check out my bootcamp projects 
+
+[![HTML & CSS](https://img.shields.io/badge/-HTML%20%26%20CSS-FF5722?style=flat-square&logo=html5&logoColor=white)](https://github.com/NeeloByron/CodeTribe-Bootcamp)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/NeeloByron/Javascript-Bootcamp-Tasks-1)
+[![JavaScript](https://img.shields.io/badge/-JavaScript%20Pt2-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/NeeloByron/Javascript-Bootcamp-Task-2)
+[![JavaScript](https://img.shields.io/badge/-JavaScript%20Pt3-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/NeeloByron/Javascript-Bootcamp-Task-3)
+[![Final](https://img.shields.io/badge/-Final%20Project-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/NeeloByron/newsletter-sign-up-with-success-message-main)
+
+**Stack:** `HTML5` `CSS3` `JavaScript` `Git`
  
 ---
 
