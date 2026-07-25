@@ -43,19 +43,6 @@ I'm a self-taught aspiring software developer building a solid foundation in fro
 ![Microsoft Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 
 ---
-## 🎓 CodeTribe Academy — mLab Bootcamp
-
-Building real-world dev skills remotely. Check out my bootcamp projects 
-
-[![HTML & CSS](https://img.shields.io/badge/-HTML%20%26%20CSS-FF5722?style=flat-square&logo=html5&logoColor=white)](https://github.com/NeeloByron/CodeTribe-Bootcamp)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/NeeloByron/Javascript-Bootcamp-Tasks-1)
-[![JavaScript](https://img.shields.io/badge/-JavaScript%20Pt2-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/NeeloByron/Javascript-Bootcamp-Task-2)
-[![JavaScript](https://img.shields.io/badge/-JavaScript%20Pt3-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/NeeloByron/Javascript-Bootcamp-Task-3)
-[![Final](https://img.shields.io/badge/-Final%20Project-6C63FF?style=flat-square&logo=github&logoColor=white)](https://github.com/NeeloByron/newsletter-sign-up-with-success-message-main)
-
-**Stack:** `HTML5` `CSS3` `JavaScript` `Git`
- 
----
 
 ### ☁️ [Azure Certification Portfolio](https://github.com/NeeloByron/Azure-Certification-Portfolio)
 Documented lab work covering my journey through Microsoft Azure certifications.
